@@ -1,0 +1,95 @@
+.header {
+	position: relative;
+	overflow: hidden;
+}
+
+.header__container {
+	--container-width: 1170px;
+    background-image:  url(../../img/i-bg.png), url(../../img/paypal.png), url(../../img/google.png), url(../../img/grommet.png), url(../../img/bg-girl.png), url(../../img/big-elips.png), url(../../img/smal-elips.png);
+    background-repeat: no-repeat;
+    background-size:  144px 144px, 144px 144px, 144px 144px, 144px 144px, 474px 643px, 614px 614px, 430px 430px;
+    background-position: 66% 24%, 100% 42%, 96% 23%, 60% 40%, 95% 100%, 100% 100%, 88% 69%;
+}
+
+.header__top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0 125px 0;
+}
+
+.header__logo-text {
+	margin: 0;
+	font-family: var(--third-family);
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 57.3px;
+	letter-spacing: 0.02em;
+	text-align: left;
+}
+
+.nav__link {
+	text-decoration: none;
+	color: var(--darker-primary);
+}
+
+.header__list {
+	display: flex;
+	gap: 40px;
+}
+
+.header__item {
+	position: relative;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 28.35px;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+
+.header__item:hover:after,
+.header__item:focus:after {
+	width: 100%;
+    left: 0;
+}
+
+.header__item::after {
+	display: block;
+	position: absolute;
+	left: 50%;
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 1px; /*задаём ширину линии*/
+	background-color: #ee4f3c; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease, left 0.3s ease; /*задаём время анимации*/
+}
+
+.header__button {
+	width: 220px;
+	height: 60px;
+	border-radius: 10px;
+	background-color: #ee4f3c;
+	font-family: var(--font-family);
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 32.62px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: white;
+	transition: 0.3s ease;
+	border: 1px solid;
+}
+
+.header__button:hover {
+	background-color: #fff;
+	color: #ee4f3c;
+	border: 1px solid;
+}
+
+.header__button:active {
+	background-color: #e7e7ea;
+}
+
+.header__button-text {
+    padding-top: 3px;
+}

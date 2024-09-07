@@ -1,0 +1,154 @@
+.card__content {
+    transition: 0.3s ease;
+    backdrop-filter: blur(0px);
+}
+
+.card__content:hover {
+    content: "";
+    background-color: rgba(238, 79, 60, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.card__content:hover .card-btn {
+    background-color:#FFFFFF1A;
+    color: white;
+}
+
+.card__content:hover .hover__text {
+    color: white;
+}
+
+.card__content:hover .box-hover {
+    background-color: white;
+}
+
+.box-hover {
+    transition: 0.3s ease;
+}
+
+.card-item {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text-title {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32.62px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #353540;
+}
+
+.card__slack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.slack-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.slack-box {
+    display: flex;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card__google {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.google-box {
+    display: flex;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card__indeed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.indeed-box {
+    display: flex;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.slack__avatars {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-title {
+    margin-bottom: 12px;
+    font-family: var(--six-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.27px;
+    letter-spacing: 0.02em;
+    color: #353540;
+}
+
+.card-descr {
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.2px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #5D5D61;
+}
+
+.card-btn {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.05px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card-btn:hover {
+    color: rgb(171, 171, 171);
+}
+
+.card-text {
+    padding-left: 20px;
+}
+
+.card-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,84 @@
+.popular__post {
+    background-image: url(../../img/bg-leaflet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.popular__container {
+    --container-width: 1170px;
+}
+
+.popular__post {
+    background-color: #232443;
+}
+
+.card__content {
+    width: 370px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.popular__title {
+    margin: 0;
+    padding-top: 95px;
+    margin-bottom: 50px;
+    font-family: var(--six-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #fff;
+}
+
+.popular__vacancies-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 70px;
+}
+
+.view__all {
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.view__all-text {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: #fff;
+    text-decoration: none;
+    transition: border 0.3s ease;
+}
+
+.view__link:hover {
+    color: #aaaab1;
+}
+
+.view__link:active {
+    color: #5c5c60;
+}
+
+.view__link {
+    display: inline-block;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    gap: 12px;
+    transition: 0.3s ease;
+}
+
+.view__all-span {
+    width: 30px;
+    height: 30px;
+}

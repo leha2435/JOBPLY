@@ -1,0 +1,113 @@
+.new__job {
+}
+
+.new__job-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    --container-width: 1170px;
+    padding-bottom: 150px;
+    background-image: url(../../img/tochka-png.png), url(../../img/tochka-png.png);
+    background-repeat: no-repeat;
+    background-size: 180px 266px, 184px 270px;
+    background-position: 100% 73%, 0% 5%;
+}
+
+/* CONTAINER TEXT-BTN 1 */
+.new__job-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.new__job-text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.new__job-hero-title {
+    margin: 0;
+    font-family: var(--six-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54.54px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #353540;
+    background-color: #fff;
+}
+
+.new__job-descr {
+    width: 408px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #5D5D61;
+    background-color: #fff;
+}
+
+.new__job-btn {
+    width: 220px;
+    height: 70px;
+    background-color: #EE4F3C;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.61px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    border: 1px solid #EE4F3C;
+}
+
+.new__job-btn:hover {
+    background-color: #fff;
+    border: 1px solid #EE4F3C;
+    color: #EE4F3C;
+}
+
+.new__job-btn:active {
+    background-color: #e7e7ea;
+}
+
+/* CONTAINER IMG 2 */
+.new__job-img-box {
+    display: flex;
+    gap: 30px;
+}
+
+.new__job-img-man {
+    overflow: hidden;
+    width: 260px;
+    height: 400px;
+    background-color: darkorange;
+    border-radius: 200px 0px 200px 140px;
+}
+
+.new__job-img-girl {
+    overflow: hidden;
+    width: 260px;
+    height: 400px;
+    background-color: rgb(173, 44, 44);
+    border-radius: 0px 200px 140px 200px;
+}
+
+.new__job-img-set-man {
+    position: relative;
+    width: 300px;
+    top: 11%;
+    left: -5%;
+}
+
+.new__job-img-set-girl {
+    position: relative;
+    width: 242px;
+    top: 6%;
+    left: 3%;
+}

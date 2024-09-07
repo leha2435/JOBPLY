@@ -1,0 +1,18 @@
+/* GLOBAL */
+@import url("_normalize.css");
+@import url("_fonts.css");
+@import url("_vars.css");
+@import url("_settings.css");
+
+/* BLOCKS */
+@import url("./blocks/_header.css");
+@import url("./blocks/_hero.css");
+@import url("./blocks/_popular-post.css");
+@import url("./blocks/_cards.css");
+@import url("./blocks/_job-categories.css");
+@import url("./blocks/_new-job.css");
+@import url("./blocks/_post-job.css");
+@import url("./blocks/_feedback.css");
+@import url("./blocks/_slider.css");
+@import url("./blocks/_subscribe.css");
+@import url("./blocks/_footer.css");

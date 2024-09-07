@@ -1,0 +1,17 @@
+:root {
+	--light-red: #ee4f3c;
+	--dark-primary: #5d5d61;
+	--darker-primary: #353540;
+
+	--gap: 20px;
+	--container-width: 1920px;
+	--container-offset: 15px;
+
+
+	--font-family: "Axiforma", sans-serif;
+	--second-family: "Georgia", sans-serif;
+	--third-family: "Perpetua", sans-serif;
+	--four-family: "Axiforma Black", sans-serif;
+	--five-family: "Axiforma Bold", sans-serif;
+	--six-family: "Georgia Bold", sans-serif;
+}

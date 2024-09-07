@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JOBPLY</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="container header__container">
+				<div class="header__top">
+					<div class="header__logo">
+						<p class="header__logo-text">
+							J<span style="color: #ee4f3c">O</span>BPLY
+						</p>
+					</div>
+					<div class="header__nav">
+						<ul class="list-reset header__list">
+							<li class="header__item">
+								<a href="#" class="nav__link">Home</a>
+							</li>
+							<li class="header__item">
+								<a href="#" class="nav__link">Categories</a>
+							</li>
+							<li class="header__item">
+								<a href="#" class="nav__link">Service</a>
+							</li>
+							<li class="header__item">
+								<a href="#" class="nav__link">Jobs</a>
+							</li>
+						</ul>
+					</div>
+					<button class="btn-reset header__button">
+						<p class="header__button-text">Post a Vacancy</p>
+					</button>
+				</div>
+				<div class="header__bottom">
+					<h1 class="header__hero-title">Find & Apply For Your Dream Job</h1>
+					<p class="hero__descr">
+						The website is chockablock with useful features, allowing you
+						to efficiently search and apply for roles across all sectors,
+						experience levels and locations.
+					</p>
+					<div class="location__search">
+						<div class="search-location__wrapper">
+							<div class="search__box">
+								<img
+									class="img-wrapper"
+									src="./img/search-item.svg"
+									style="width: 20px; height: 20px"
+									alt=""
+								/>
+								<input
+									type="search"
+									name="email"
+									required
+									class="form__input"
+									placeholder="Job title or Keyword"
+									autocomplete="off"
+								/>
+							</div>
+							<div class="border"></div>
+							<div class="location__box">
+								<img
+									class="img-wrapper"
+									src="./img/location-item.svg"
+									style="width: 22px; height: 22px"
+									alt=""
+								/>
+								<input
+									type="email"
+									name="email"
+									required
+									class="form__input"
+									placeholder="Location"
+									autocomplete="off"
+								/>
+							</div>
+						</div>
+						<button class="btn-reset hero-btn">Search</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="popular__post">
+				<div class="container popular__container">
+					<div class="popular__content">
+						<h2 class="popular__title hover__text">Popular Job Posts</h2>
+						<div class="popular__vacancies-card">
+							<div class="card__content card__slack">
+								<div class="card-item slack-item">
+									<div class="slack__avatars">
+										<div class="slack-box box-hover">
+											<img
+												style="width: 30px; height: 30px"
+												src="./img/slack-flat-color.png"
+												alt=""
+											/>
+										</div>
+										<p class="card-text-title hover__text">Slack</p>
+									</div>
+									<div class="slack__right">
+										<img src="./img/avatar-card-1.png" alt="" />
+									</div>
+								</div>
+								<div class="card-text">
+									<h1 class="card-title hover__text">Sr. Product Designer</h1>
+									<p class="card-descr hover__text">
+										Full Time — New York City
+									</p>
+								</div>
+								<div class="card-buttons">
+									<button class="btn-reset card-btn">Remote</button>
+									<button class="btn-reset card-btn">Anywhere</button>
+									<p class="card-buttons-price">$10k - $25k</p>
+								</div>
+							</div>
+							<div class="card__content card__google">
+								<div class="card-item">
+									<div class="slack__avatars">
+										<div class="google-box box-hover">
+											<img
+												style="width: 30px; height: 30px"
+												src="./img/flat-color-icons_google.png"
+												alt=""
+											/>
+										</div>
+										<p class="card-text-title hover__text">Google</p>
+									</div>
+									<div class="slack__right">
+										<img src="./img/avatar-card-2.png" alt="" />
+									</div>
+								</div>
+								<div class="card-text">
+									<h1 class="card-title hover__text">UX Researcher</h1>
+									<p class="card-descr hover__text">
+										Full Time — United States
+									</p>
+								</div>
+								<div class="card-buttons">
+									<button class="btn-reset card-btn">Remote</button>
+									<button class="btn-reset card-btn">Anywhere</button>
+									<p class="card-buttons-price">$10k - $25k</p>
+								</div>
+							</div>
+							<div class="card__content card__indeed">
+								<div class="card-item">
+									<div class="slack__avatars">
+										<div class="indeed-box box-hover">
+											<img
+												style="width: 30px; height: 30px"
+												src="./img/indeed-card-3.png"
+												alt=""
+											/>
+										</div>
+										<p class="card-text-title hover__text">Indeed</p>
+									</div>
+									<div class="slack__right">
+										<img src="./img/avatar-card-1.png" alt="" />
+									</div>
+								</div>
+								<div class="card-text">
+									<h1 class="card-title hover__text">Project Manager</h1>
+									<p class="card-descr hover__text">Full Time - Singapore</p>
+								</div>
+								<div class="card-buttons">
+									<button class="btn-reset card-btn">Remote</button>
+									<button class="btn-reset card-btn">Anywhere</button>
+									<p class="card-buttons-price">$10k - $25k</p>
+								</div>
+							</div>
+						</div>
+						<div class="view__all">
+							<p class="view__all-text">
+								<a class="view__link" href="#">View All</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="job__categories">
+				<div class="container job__categories-container">
+					<div class="job__content">
+						<h3 class="job__hero-title">Job Categories</h3>
+						<div class="categories__box">
+							<ul class="list-reset categories__list">
+								<li class="list-reset categories__item">
+									<div class="img__cat-box">
+										<img src="./img/acounting-finance.png" alt="" />
+									</div>
+									<div class="categories__text-box">
+										<p class="categories__hero-text">Accouting & Finance</p>
+										<p class="categories__descr">125 Job Vacancy</p>
+									</div>
+								</li>
+								<li class="list-reset categories__item">
+									<div class="img__cat-box">
+										<img
+											src="./img/acounting-finance2.png"
+											alt=""
+											class="categories__img-item"
+											style="width: 60px; height: 60px"
+										/>
+									</div>
+									<div class="categories__text-box">
+										<p class="categories__hero-text">UI/UX Design</p>
+										<p class="categories__descr">52 Job Vacancy</p>
+									</div>
+								</li>
+								<li class="list-reset categories__item">
+									<div class="img__cat-box">
+										<img
+											src="./img/content-writing.png"
+											alt=""
+											class="categories__img-item"
+											style="width: 60px; height: 60px"
+										/>
+									</div>
+									<div class="categories__text-box">
+										<p class="categories__hero-text">Content Writing</p>
+										<p class="categories__descr">150 Job Vacancy</p>
+									</div>
+								</li>
+								<li class="list-reset categories__item">
+									<div class="img__cat-box">
+										<img
+											src="./img/technical-support.png"
+											alt=""
+											class="categories__img-item"
+											style="width: 60px; height: 60px"
+										/>
+									</div>
+									<div class="categories__text-box">
+										<p class="categories__hero-text">Accouting & Finance</p>
+										<p class="categories__descr">125 Job Vacancy</p>
+									</div>
+								</li>
+								<li class="list-reset categories__item">
+									<div class="img__cat-box">
+										<img
+											src="./img/digital-marketing.png"
+											alt=""
+											class="categories__img-item"
+											style="width: 60px; height: 60px"
+										/>
+									</div>
+									<div class="categories__text-box">
+										<p class="categories__hero-text">Digital Marketing</p>
+										<p class="categories__descr">150 Job Vacancy</p>
+									</div>
+								</li>
+								<li class="list-reset categories__item">
+									<div class="img__cat-box">
+										<img
+											src="./img/technical-support.png"
+											alt=""
+											class="categories__img-item"
+											style="width: 60px; height: 60px"
+										/>
+									</div>
+									<div class="categories__text-box">
+										<p class="categories__hero-text">Technical Support</p>
+										<p class="categories__descr">350 Job Vacancy</p>
+									</div>
+								</li>
+								<li class="list-reset categories__item">
+									<div class="img__cat-box">
+										<img
+											src="./img/human-resource.png"
+											alt=""
+											class="categories__img-item"
+											style="width: 60px; height: 60px"
+										/>
+									</div>
+									<div class="categories__text-box">
+										<p class="categories__hero-text">Human Resource</p>
+										<p class="categories__descr">35 Job Vacancy</p>
+									</div>
+								</li>
+								<li class="list-reset categories__item">
+									<div class="img__cat-box">
+										<img
+											src="./img/art-s-ilustrator.png"
+											alt=""
+											class="categories__img-item"
+											style="width: 60px; height: 60px"
+										/>
+									</div>
+									<div class="categories__text-box">
+										<p class="categories__hero-text">Art & Illustration</p>
+										<p class="categories__descr">52 Job Vacancy</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="new__job">
+				<div class="container new__job-container">
+					<div class="new__job-content">
+						<div class="new__job-text-box">
+							<h5 class="new__job-hero-title">Get Start New Job</h5>
+							<p class="new__job-descr">
+								Create an account so you can get job information that suits you,
+								and you can apply the salary your demand.
+							</p>
+						</div>
+						<button class="btn-reset new__job-btn">Create an Account</button>
+					</div>
+					<div class="new__job-img-box">
+						<div class="new__job-img-man">
+							<img
+								class="new__job-img-set-man"
+								src="./img/fashionable-hipster-with-red-hair-thick-beard-focused-smart-phone-recieves-link-some-publication 1.png"
+								alt=""
+							/>
+						</div>
+						<div class="new__job-img-girl">
+							<img
+								class="new__job-img-set-girl"
+								src="./img/cheerful-pleased-woman-with-curly-hair-holds-mobile-phone-texts-with-friends-social-networks-uses-special-application-watches-interesting-video-isolated-blue-wall-people-technology 2.png"
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="post__job">
+				<div class="container post__job-container">
+					<div class="post__job-wrapper">
+						<div class="post__job-video-box">
+							<button class="btn-reset btn-ellipse">
+								<img
+									src="./img/play-video.svg"
+									alt=""
+									style="width: 30px; height: 30px"
+								/>
+							</button>
+						</div>
+						<div class="post__job-hero">
+							<h6 class="post__job-hero-title">Post a Job for UX Designer</h6>
+							<p class="post__job-hero-descr">
+								Create an account so you can get job information that suits you,
+								and you can apply the salary your demand.
+							</p>
+							<button class="btn-reset post__job-btn">Post a Job</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="feedback">
+				<div class="container feedback__container">
+					<div class="feedback__content">
+						<h6 class="feedback__title">Great Feedback From Candidates</h6>
+						<div class="slider-container">
+							<div class="slides">
+								<div class="slide">
+									<div class="slide-wrapper">
+										<div class="quotes">
+											<img
+												src="./img/double-quotes.png"
+												alt=""
+												style="width: 50px; height: 50px"
+											/>
+										</div>
+										<div class="slide-descr">
+											Very decent services & care about my health. Really happy
+											with his advice. Lorem Ipsum is simply dummy text of the
+											printing and typesetting industry Very decent services &
+											care about my health. Really happy with his advice.
+										</div>
+										<div class="user__content">
+											<img
+												class="user__img-item"
+												src="./img/user-avatar-maria.png"
+												alt=""
+												style="width: 150px; height: 150px"
+											/>
+											<div class="user__text-content">
+												<div class="user__text-item">
+													<h1 class="user__hero-title">Maria Jannat</h1>
+													<p class="user__descr">Content Writer</p>
+												</div>
+												<img
+													class="rate-img"
+													src="./img/rate-stars.png"
+													alt=""
+													style="width: 140px; height: 24px"
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="slide-wrapper">
+										<div class="quotes">
+											<img
+												src="./img/double-quotes.png"
+												alt=""
+												style="width: 50px; height: 50px"
+											/>
+										</div>
+										<div class="slide-descr">
+											Very decent services & care about my health. Really happy
+											with his advice. Lorem Ipsum is simply dummy text of the
+											printing and Lorem Ipsum is simply dummy text of the
+											printing and typesetting industry.
+										</div>
+										<div class="user__content">
+											<img
+												class="user__img-item"
+												src="./img/user-avatar-mithela.png"
+												alt=""
+												style="width: 150px; height: 150px"
+											/>
+											<div class="user__text-content">
+												<div class="user__text-item">
+													<h1 class="user__hero-title">Mithela</h1>
+													<p class="user__descr">UI Designer</p>
+												</div>
+												<img
+													class="rate-img"
+													src="./img/rate-stars.png"
+													alt=""
+													style="width: 140px; height: 24px"
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="slide-wrapper">
+										<div class="quotes">
+											<img
+												src="./img/double-quotes.png"
+												alt=""
+												style="width: 50px; height: 50px"
+											/>
+										</div>
+										<div class="slide-descr">
+											Very decent services & care about my health. Really happy
+											with his advice. Lorem Ipsum is simply dummy text of the
+											printing and typesetting industry Very decent services &
+											care about my health. Really happy with his advice.
+										</div>
+										<div class="user__content">
+											<img
+												class="user__img-item"
+												src="./img/user-avatar-adam.png"
+												alt=""
+												style="width: 150px; height: 150px"
+											/>
+											<div class="user__text-content">
+												<div class="user__text-item">
+													<h1 class="user__hero-title">Adam</h1>
+													<p class="user__descr">Developer</p>
+												</div>
+												<img
+													class="rate-img"
+													src="./img/rate-stars.png"
+													alt=""
+													style="width: 140px; height: 24px"
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="navigation-dots">
+								<span class="dot active" onclick="currentSlide(1)"></span>
+								<span class="dot" onclick="currentSlide(2)"></span>
+								<span class="dot" onclick="currentSlide(3)"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="subscribe">
+				<div class="container subscribe__container">
+					<div class="subscribe__content">
+						<div class="subscribe__box">
+							<h1 class="subscribe__hero-title">
+								Subscribe to get update vacancy post
+							</h1>
+							<div class="subscribe__input-box">
+								<div class="padding__wrapper">
+									<input
+										type="email"
+										name="email"
+										required
+										class="subscribe__input"
+										placeholder="I need your email"
+										autocomplete="off"
+									/>
+									<button class="btn-reset subscribe-btn">Subscribe</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container footer__container">
+				<div class="footer__content">
+					<ul class="footer__list list-reset">
+						<li class="footer__item list-reset">
+							<p class="footer__logo-text">
+								J<span style="color: #ee4f3c">O</span>BPLY
+							</p>
+							<p class="footer__descr">152/3 , Western Road, New York</p>
+							<p class="footer__link">
+								<a class="footer__link footer__color-text special-link" href="#"
+									>Call Us: +99-8569-5234</a
+								>
+							</p>
+							<div class="footer__social"></div>
+						</li>
+						<li class="footer__item list-reset">
+							<h1 class="footer__text-title">Explore</h1>
+							<a href="#"><p class="footer__descr">Featured Job</p></a>
+							<a href="#"><p class="footer__descr">Recent Job Post</p></a>
+							<a href="#"> <p class="footer__descr">Total Candidates</p></a>
+							<a href="#"> <p class="footer__descr">Support</p></a>
+						</li>
+						<li class="footer__item list-reset">
+							<h1 class="footer__text-title">Useful Link</h1>
+							<a href="#"> <p class="footer__descr">About Us</p></a>
+							<a href="#"> <p class="footer__descr">Blog</p></a>
+							<a href="#"> <p class="footer__descr">Company</p></a>
+							<a href="#"> <p class="footer__descr">Contact Us</p></a>
+						</li>
+						<li class="footer__item list-reset">
+							<h1 class="footer__text-title">Useful Link</h1>
+							<div class="footer__img-content">
+								<img
+									src="./img/latest-news1.jpg"
+									alt=""
+									style="width: 70px; height: 70px; border-radius: 10px"
+								/>
+								<div class="text__container">
+									<p class="footer__img-title">
+										Understanding the Cybersecurity Landscape in 2021
+									</p>
+									<p class="footer__img-descr footer__color-text">
+										21 June, 2021
+									</p>
+								</div>
+							</div>
+							<div class="footer__img-content">
+								<img
+									src="./img/latest-news2.jpg"
+									style="width: 70px; height: 70px; border-radius: 10px"
+									alt=""
+								/>
+								<div class="text__container">
+									<p class="footer__img-title">
+										How to Design for Maximum Product Trust
+									</p>
+									<p class="footer__img-descr footer__color-text">
+										21 June, 2021
+									</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="border__line"></div>
+					<div class="copyright">
+						<p class="copy-text footer__descr">
+							Copyright 2021, All right reserved
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="./js/slider.js"></script>
+</html>

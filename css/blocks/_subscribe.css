@@ -1,0 +1,88 @@
+.subscribe {
+	background-image: url(../../img/bg__list.png);
+	background-repeat: repeat-x;
+	background-position: 0% -10%;
+}
+
+.subscribe__container {
+	--container-width: 1170px;
+	padding-bottom: 170px;
+}
+
+.subscribe__content {
+	display: flex;
+	width: 1170px;
+	height: 400px;
+	border-radius: 20px;
+	background-color: #ee4f3c;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../../img/touchs__subscribe.png),
+		url(../../img/rectange-subscribbe.png), url(../../img/Rectangle2.png),
+		url(../../img/Rectangle3.png), url(../../img/Rectangle4.png);
+	background-repeat: no-repeat;
+	background-size: 150px 150px, 80px 382px, 80px 293px, 80px 225px, 80px 174px;
+	background-position: -1% 106%, 100% 0%, 92% 0%, 84% 0%, 76% 0%;
+}
+
+.subscribe__box {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.padding__wrapper {
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.subscribe__hero-title {
+	width: 515px;
+	font-family: var(--six-family);
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 54.54px;
+	letter-spacing: 0.02em;
+	text-align: left;
+	color: white;
+}
+
+.subscribe__input-box {
+	width: 770px;
+	height: 70px;
+	background-color: white;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+.subscribe__input {
+	height: 40px;
+	width: 500px;
+	border: none;
+	outline: none;
+	padding-left: 25px;
+}
+
+.subscribe-btn {
+	width: 220px;
+	height: 60px;
+	border-radius: 10px;
+	background-color: var(--light-red);
+	color: white;
+	font-family: var(--font-family);
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 29.36px;
+	letter-spacing: 0.13em;
+	text-align: center;
+	transition: 0.3s ease;
+	border: 1px solid var(--light-red);
+}
+
+.subscribe-btn:hover {
+	background-color: white;
+	color: var(--light-red);
+	border: 1px solid var(--light-red);
+}
